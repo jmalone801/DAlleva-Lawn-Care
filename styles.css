@@ -771,16 +771,16 @@ html {
 
     #sbs-1591 .cs-picture1 {
         /* the percentage heights allow them to be responsive to the height of the parent cs-image-group. On desktop, when the felxbox is set to aling-items: stretch, the cs-image group will stretch to fill the height of the parent container. So when you add more content to the cs-content group and make it taller, the cs-image group will get taller with it and every image will stretch with the parent, making this entire group responsive to the changing amounts of content next to it */
-        width: 25.8125em;
-        height: 79.617834%;
+        width: 22.8125em;
+        height: 76.617834%;
         top: 0;
         left: 0;
         z-index: -1;
     }
 
     #sbs-1591 .cs-picture2 {
-        width: 25.8125em;
-        height: 44.585987%;
+        width: 22.8125em;
+        height: 41.585987%;
         bottom: 0;
         right: 0;
         z-index: 10;
@@ -1010,7 +1010,7 @@ html {
 
     #sbsr-463 .cs-picture {
         width: 100%;
-        max-width: 32.625rem;
+        max-width: 26.625rem;
         height: auto;
         /* same margin top as the top value for the :after to offset the amount it overlaps the container */
         /* 56px - 100px */
