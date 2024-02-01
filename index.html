@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>D’Alleva Lawn Care</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <!-- ============================================ -->
+    <!--                 Navigation                   -->
+    <!-- ============================================ -->
+
+    <header id="cs-navigation">
+        <div class="cs-container">
+            <!--Nav Logo-->
+            <a href="" class="cs-logo" aria-label="back to home">
+                <!-- <img src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Flogo-black.svg" alt="logo" width="210" height="29" aria-hidden="true" decoding="async"> -->
+                <h2>D’Alleva Lawn Care</h2>
+            </a>
+            <!--Navigation List-->
+            <nav class="cs-nav" role="navigation">
+                <!--Mobile Nav Toggle-->
+                <button class="cs-toggle" aria-label="mobile menu toggle">
+                    <div class="cs-box" aria-hidden="true">
+                        <span class="cs-line cs-line1" aria-hidden="true"></span>
+                        <span class="cs-line cs-line2" aria-hidden="true"></span>
+                        <span class="cs-line cs-line3" aria-hidden="true"></span>
+                    </div>
+                </button>
+                <!-- We need a wrapper div so we can set a fixed height on the cs-ul in case the nav list gets too long from too many dropdowns being opened and needs to have an overflow scroll. This wrapper acts as the background so it can go the full height of the screen and not cut off any overflowing nav items while the cs-ul stops short of the bottom of the screen, which keeps all nav items in view no matter how mnay there are-->
+                <div class="cs-ul-wrapper">
+                    <ul id="cs-expanded" class="cs-ul" aria-expanded="false">
+                        <li class="cs-li">
+                            <a href="" class="cs-li-link cs-active">
+                                Home
+                            </a>
+                        </li>
+                        <li class="cs-li">
+                            <a href="#sbs-1591" class="cs-li-link">
+                                Services
+                            </a>
+                        </li>
+                        <li class="cs-li">
+                            <a href="#sbsr-463" class="cs-li-link">
+                                About Us
+                            </a>
+                        </li>
+                        <li class="cs-li">
+                            <a href="#gallery-434" class="cs-li-link">
+                                Gallery
+                            </a>
+                        </li>
+                        <li class="cs-li">
+                            <a href="#contact-569" class="cs-li-link">
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <a href="" class="cs-button-solid cs-nav-button">Call Now</a>
+        </div>
+    </header>
+
+
+    <!-- ============================================ -->
+    <!--                    Hero                      -->
+    <!-- ============================================ -->
+
+    <section id="hero-82">
+        <div class="cs-container">
+            <h1 class="cs-title">D’Alleva Lawn Care</h1>
+            <p class="cs-text">
+                Experience the best in landscaping excellence, where precision meets passion in every outdoor space.            </p>
+            <a href="#contact-569" class="cs-button-solid">Request a Quote</a>
+        </div>
+
+        <!-- Background Image -->
+        <picture class="cs-background">
+            <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Hero/kitchen-m.jpg">
+            <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Hero/kitchen.jpg">
+            <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Hero/kitchen.jpg" alt="kitchen" width="2250" height="1500" aria-hidden="true">
+        </picture>
+    </section>
+
+
+
+    <!-- ============================================ -->
+    <!--                Side By Side SERVICES         -->
+    <!-- ============================================ -->
+
+    <section id="sbs-1591">
+        <div class="cs-container">
+            <div class="cs-image-group">
+                <!--Top left image-->
+                <picture class="cs-picture cs-picture1">
+                    <!--Mobile Image-->
+                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/ecommerce/models1.jpg">
+                    <!--Tablet and above Image-->
+                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/ecommerce/models1.jpg">
+                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/ecommerce/models1.jpg" alt="mechanic" width="413" height="500">
+                </picture>
+                <!--Top Right image-->
+                <picture class="cs-picture cs-picture2">
+                    <!--Mobile Image-->
+                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/ecommerce/shoes2.jpg">
+                    <!--Tablet and above Image-->
+                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/ecommerce/shoes2.jpg">
+                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/ecommerce/shoes2.jpg" alt="mechanic" width="413" height="280">
+                </picture>
+            </div>
+            <div class="cs-content">
+                <span class="cs-topper">Services</span>
+                <h2 class="cs-title">Discover our comprehensive lawn care solutions</h2>
+                <p class="cs-text">
+                    We offer everything from meticulous lawn maintenance and seasonal cleanups to expert seeding and mulch application. Keeping Rockland County's yards and gardens vibrant and well-cared-for, all year round.
+                </p>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============================================ -->
+    <!--                  Services                    -->
+    <!-- ============================================ -->
+
+    <section id="services-467">
+        <div class="cs-container">
+            <ul class="cs-card-group">
+                <li class="cs-item">
+                    <img class="cs-icon" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/SideBySide/geen1.svg" loading="lazy" decoding="async" alt="icon" width="90" height="90">
+                    <h3 class="cs-h3">Lawn Maintenance</h3>
+                </li>
+                <li class="cs-item">
+                    <img class="cs-icon" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/SideBySide/green2.svg" loading="lazy" decoding="async" alt="icon" width="90" height="90">
+                    <h3 class="cs-h3">Seeding/Reseeding</h3>
+                </li>
+                <li class="cs-item">
+                    <img class="cs-icon" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/SideBySide/green3.svg" loading="lazy" decoding="async" alt="icon" width="90" height="90">
+                    <h3 class="cs-h3">Spring & Fall Cleanup</h3>
+                </li>
+                <li class="cs-item">
+                    <img class="cs-icon" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/SideBySide/green4.svg" loading="lazy" decoding="async" alt="icon" width="90" height="90">
+                    <h3 class="cs-h3">Weeding</h3>
+                </li>
+                <li class="cs-item">
+                    <img class="cs-icon" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/SideBySide/green5.svg" loading="lazy" decoding="async" alt="icon" width="90" height="90">
+                    <h3 class="cs-h3">Mulch Application</h3>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+
+
+    <!-- ============================================ -->
+    <!--            Side By Side Reverse ABOUT              -->
+    <!-- ============================================ -->
+
+    <section id="sbsr-463">
+        <div class="cs-container">
+            <picture class="cs-picture">
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/SideBySide/landscaping1.jpg">
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/SideBySide/landscaping1.jpg">
+                <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/SideBySide/landscaping1.jpg" alt="leaf" width="522" height="551">
+            </picture>
+            <div class="cs-content">
+                <span class="cs-topper">Who We Are</span>
+                <h2 class="cs-title">About Our Company</h2>
+                <p class="cs-text">
+                    Rooted in Rockland County, D’Alleva Lawn Care reflects a journey from a high school lawn care hobby to a professional, licensed, and insured landscaping service. My dedication to this craft ensures that every project, large or small, is handled with utmost precision and care. With a focus on quality, dependability, and meticulous attention to detail, I aim to bring out the best in Rockland County's landscapes, one yard at a time.
+                </p>
+                <ul id="list-1165" class="cs-ul">
+                    <li class="cs-li">Licensed by Rockland County's Department of Consumer Protection.</li>
+                    <li class="cs-li">Protected with comprehensive General Liability Insurance.</li>
+                    <li class="cs-li">Equipped with Commercial, Grade Equipment.</li>
+                    <li class="cs-li">Unparalleled attention to detail for perfect landscapes.</li>
+                    <li class="cs-li">Dedicated to safety in every aspect of service.</li>
+                    <li class="cs-li">Known for hard work, quality workmanship, and reliability.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- ============================================ -->
+    <!--                   Gallery                    -->
+    <!-- ============================================ -->
+
+    <section id="gallery-434">
+        <div class="cs-container">
+            <div class="cs-content">
+                <span class="cs-topper">Our Work</span>
+                <h2 class="cs-title">Gallery</h2>
+                </div>
+            <div class="cs-grid">
+                <!--In order from top left to top right, then bottom left to bototm right-->
+                <!--Picture 1-->
+                <picture class="cs-picture cs-picture1">
+                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2-m.jpg">
+                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2.jpg">
+                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2.jpg" alt="gallery image" width="424" height="190">
+                </picture>
+                <!--Picture 2-->
+                <picture class="cs-picture cs-picture2">
+                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2-m.jpg">
+                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2.jpg">
+                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2.jpg" alt="gallery image" width="571" height="390">
+                </picture>
+                <!--Picture 3-->
+                <picture class="cs-picture cs-picture3">
+                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2-m.jpg">
+                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2.jpg">
+                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2.jpg" alt="gallery image" width="268" height="190">
+                </picture>
+                <!--Picture 4-->
+                <picture class="cs-picture cs-picture4">
+                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2-m.jpg">
+                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2.jpg">
+                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2.jpg" alt="gallery image" width="268" height="190">
+                </picture>
+                <!--Picture 5-->
+                <picture class="cs-picture cs-picture5">
+                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2-m.jpg">
+                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2.jpg">
+                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2.jpg" alt="gallery image" width="268" height="390">
+                </picture>
+                <!--Picture 6-->
+                <picture class="cs-picture cs-picture6">
+                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2-m.jpg">
+                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2.jpg">
+                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2.jpg" alt="gallery image" width="425" height="390">
+                </picture>
+                <!--Picture 7-->
+                <picture class="cs-picture cs-picture7">
+                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2-m.jpg">
+                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2.jpg">
+                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2.jpg" alt="gallery image" width="273" height="190">
+                </picture>
+                <!--Picture 8-->
+                <picture class="cs-picture cs-picture8">
+                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2-m.jpg">
+                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2.jpg">
+                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2.jpg" alt="gallery image" width="273" height="190">
+                </picture>
+                <!--Picture 9-->
+                <picture class="cs-picture cs-picture9">
+                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2-m.jpg">
+                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2.jpg">
+                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2.jpg" alt="gallery image" width="268" height="390">
+                </picture>
+                <!--Picture 10-->
+                <picture class="cs-picture cs-picture10">
+                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2-m.jpg">
+                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2.jpg">
+                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2.jpg" alt="gallery image" width="268" height="390">
+                </picture>
+                <!--Picture 11-->
+                <picture class="cs-picture cs-picture11">
+                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2-m.jpg">
+                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2.jpg">
+                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2.jpg" alt="gallery image" width="268" height="190">
+                </picture>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============================================ -->
+    <!--                   Contact                    -->
+    <!-- ============================================ -->
+
+    <section id="contact-569">
+        <div class="cs-container">
+            <div class="cs-content">
+                <span class="cs-topper">Contact Us</span>
+                <h2 class="cs-title">Request A Quote</h2>
+            </div>
+            <div class="cs-left-container">
+                <div class="cs-left">
+                    <!--Form-->
+                    <form class="cs-form" id="cs-form-569" name="Contact Form" method="post">
+                        <label class="cs-label">
+                            Name
+                            <input class="cs-input" required type="text" id="name-569" name="name" placeholder="Name">
+                        </label>
+                        <label class="cs-label">
+                            Phone
+                            <input class="cs-input" required type="text" id="phone-569" name="phone" placeholder="Phone">
+                        </label>
+                        <label class="cs-label">
+                            Email
+                            <input class="cs-input" required type="text" id="email-569" name="email" placeholder="Email">
+                        </label>
+                        <label class="cs-label">
+                            How did you hear about us?
+                            <input class="cs-input" required type="text" id="hear-569" name="heat" placeholder="How did you hear about us?">
+                        </label>
+                        <label class="cs-label cs-message">
+                            Message
+                            <textarea class="cs-input cs-textarea" required name="Message" id="message-569" placeholder="Write message..."></textarea>
+                        </label>
+                        <button class="cs-submit" type="submit">Send Now</button>
+                    </form>
+                </div>
+                <div class="cs-right">
+                    <!--Contacts-->
+                    <div class="cs-flex">
+                        <span class="cs-header">Quick Contacts</span>
+                        <a href="" class="cs-link">info@email.com</a>
+                        <a href="tel:555-689-9566" class="cs-link cs-phone">+1 (555) 686-9566</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- ============================================ -->
+    <!--                   Footer                     -->
+    <!-- ============================================ -->
+
+    <footer id="cs-footer-108">
+        <div class="cs-container">
+            <ul class="cs-ul">
+                <li class="cs-li">
+                    <a href="" class="cs-link">Home</a>
+                </li>
+                <li class="cs-li">
+                    <a href="" class="cs-link">About</a>
+                </li>
+                <li class="cs-li">
+                    <a href="" class="cs-link">Services</a>
+                </li>
+                <li class="cs-li">
+                    <a href="" class="cs-link">Gallery</a>
+                </li>
+                <li class="cs-li">
+                    <a href="" class="cs-link">Contact</a>
+                </li>
+            </ul>
+            <span class="cs-copyright">© 2022 Copyright</span>
+        </div>
+    </footer>
+
+
+</body>
+</html>
