@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="D’Alleva Lawn Care, the best lawn care solutions in Rockland County, New York">
+    <meta name="keywords" content="D’Alleva Lawn Care, rockland, county, new york, ny, landscaping, cut, grass, weeds">
     <title>D’Alleva Lawn Care</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preload" href="/assets/fonts/roboto-v30-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
@@ -16,8 +21,9 @@
         <div class="cs-container">
             <!--Nav Logo-->
             <!--Logo is turned white in the css with a filter on dark mode-->
-            <a href="" class="cs-logo" aria-label="back to home">
-                <img src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/day-care.svg" alt="logo" width="210" height="29" aria-hidden="true" decoding="async">
+            <a href="" class="cs-logo" aria-label="back to home" style="text-decoration: none; color: inherit;">
+                <!-- <img src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/day-care.svg" alt="logo" width="210" height="29" aria-hidden="true" decoding="async"> -->
+                <h2 style="text-wrap: nowrap;">D’Alleva Lawn Care</h2>
             </a>
             <!--Navigation List-->
             <nav class="cs-nav" role="navigation">
@@ -90,7 +96,7 @@
         <picture class="cs-background">
             <source media="(max-width: 600px)" srcset="assets/images/hero.webp">
             <source media="(min-width: 601px)" srcset="assets/images/hero.webp">
-            <img loading="lazy" decoding="async" src="assets/images/hero.webp" alt="kitchen" width="2250" height="1500" aria-hidden="true">
+            <img decoding="async" src="assets/images/hero.webp" alt="lawn" width="2250" height="1500" aria-hidden="true">
         </picture>
     </section>
 
@@ -106,23 +112,23 @@
                 <!--Top left image-->
                 <picture class="cs-picture cs-picture1">
                     <!--Mobile Image-->
-                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/ecommerce/models1.jpg">
+                    <source media="(max-width: 600px)" srcset="assets/images/gallery1-min.webp">
                     <!--Tablet and above Image-->
-                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/ecommerce/models1.jpg">
-                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/ecommerce/models1.jpg" alt="mechanic" width="413" height="500">
+                    <source media="(min-width: 601px)" srcset="assets/images/gallery1-min.webp">
+                    <img loading="lazy" decoding="async" src="assets/images/gallery1-min.webp" alt="mechanic" width="413" height="500">
                 </picture>
                 <!--Top Right image-->
                 <picture class="cs-picture cs-picture2">
                     <!--Mobile Image-->
-                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/ecommerce/shoes2.jpg">
+                    <source media="(max-width: 600px)" srcset="assets/images/gallery2-min.webp">
                     <!--Tablet and above Image-->
-                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/ecommerce/shoes2.jpg">
-                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/ecommerce/shoes2.jpg" alt="mechanic" width="413" height="280">
+                    <source media="(min-width: 601px)" srcset="assets/images/gallery2-min.webp">
+                    <img loading="lazy" decoding="async" src="assets/images/gallery2-min.webp" alt="mechanic" width="413" height="280">
                 </picture>
             </div>
             <div class="cs-content">
                 <span class="cs-topper">Services</span>
-                <h2 class="cs-title">Discover our comprehensive lawn care solutions</h2>
+                <h2 class="cs-title">Discover our comprehensive<br> lawn care solutions</h2>
                 <p class="cs-text">
                     We offer everything from meticulous lawn maintenance and seasonal cleanups to expert seeding and mulch application. Keeping Rockland County's yards and gardens vibrant and well-cared-for, all year round.
                 </p>
@@ -140,23 +146,23 @@
         <div class="cs-container">
             <ul class="cs-card-group">
                 <li class="cs-item">
-                    <img class="cs-icon" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/SideBySide/geen1.svg" loading="lazy" decoding="async" alt="icon" width="90" height="90">
+                    <img class="cs-icon" aria-hidden="true" src="assets/images/lawnCare-min.webp" loading="lazy" decoding="async" alt="icon" width="90" height="90">
                     <h3 class="cs-h3">Lawn Maintenance</h3>
                 </li>
                 <li class="cs-item">
-                    <img class="cs-icon" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/SideBySide/green2.svg" loading="lazy" decoding="async" alt="icon" width="90" height="90">
-                    <h3 class="cs-h3">Seeding/Reseeding</h3>
+                    <img class="cs-icon" aria-hidden="true" src="assets/images/seeding-min.webp" loading="lazy" decoding="async" alt="icon" width="90" height="90">
+                    <h3 class="cs-h3">Seeding & Reseeding</h3>
                 </li>
                 <li class="cs-item">
-                    <img class="cs-icon" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/SideBySide/green3.svg" loading="lazy" decoding="async" alt="icon" width="90" height="90">
+                    <img class="cs-icon" aria-hidden="true" src="assets/images/leafCleaup-min.webp" loading="lazy" decoding="async" alt="icon" width="90" height="90">
                     <h3 class="cs-h3">Spring & Fall Cleanup</h3>
                 </li>
                 <li class="cs-item">
-                    <img class="cs-icon" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/SideBySide/green4.svg" loading="lazy" decoding="async" alt="icon" width="90" height="90">
+                    <img class="cs-icon" aria-hidden="true" src="assets/images/weeding-min.webp" loading="lazy" decoding="async" alt="icon" width="90" height="90">
                     <h3 class="cs-h3">Weeding</h3>
                 </li>
                 <li class="cs-item">
-                    <img class="cs-icon" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/SideBySide/green5.svg" loading="lazy" decoding="async" alt="icon" width="90" height="90">
+                    <img class="cs-icon" aria-hidden="true" src="assets/images/mulchApplication-min.webp" loading="lazy" decoding="async" alt="icon" width="90" height="90">
                     <h3 class="cs-h3">Mulch Application</h3>
                 </li>
             </ul>
@@ -172,9 +178,9 @@
     <section id="sbsr-463">
         <div class="cs-container">
             <picture class="cs-picture">
-                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/SideBySide/landscaping1.jpg">
-                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/SideBySide/landscaping1.jpg">
-                <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/SideBySide/landscaping1.jpg" alt="leaf" width="522" height="551">
+                <source media="(max-width: 600px)" srcset="assets/images/about2.webp">
+                <source media="(min-width: 601px)" srcset="assets/images/about2.webp">
+                <img aria-hidden="true" loading="lazy" decoding="async" src="assets/images/about2.webp" alt="leaf" width="522" height="551">
             </picture>
             <div class="cs-content">
                 <span class="cs-topper">About</span>
@@ -210,123 +216,122 @@
                 <!--In order from top left to top right, then bottom left to bototm right-->
                 <!--Picture 1-->
                 <picture class="cs-picture cs-picture1">
-                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2-m.jpg">
-                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2.jpg">
-                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2.jpg" alt="gallery image" width="424" height="190">
+                    <source media="(max-width: 600px)" srcset="assets/images/gallery3-min.webp">
+                    <source media="(min-width: 601px)" srcset="assets/images/gallery3-min.webp">
+                    <img loading="lazy" decoding="async" src="assets/images/gallery3-min.webp" alt="gallery image" width="424" height="190">
                 </picture>
                 <!--Picture 2-->
                 <picture class="cs-picture cs-picture2">
-                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2-m.jpg">
-                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2.jpg">
-                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2.jpg" alt="gallery image" width="571" height="390">
+                    <source media="(max-width: 600px)" srcset="assets/images/gallery5-min.webp">
+                    <source media="(min-width: 601px)" srcset="assets/images/gallery5-min.webp">
+                    <img loading="lazy" decoding="async" src="assets/images/gallery5-min.webp" alt="gallery image" width="571" height="390">
                 </picture>
                 <!--Picture 3-->
                 <picture class="cs-picture cs-picture3">
-                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2-m.jpg">
-                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2.jpg">
-                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2.jpg" alt="gallery image" width="268" height="190">
+                    <source media="(max-width: 600px)" srcset="assets/images/gallery4-min.webp">
+                    <source media="(min-width: 601px)" srcset="assets/images/gallery4-min.webp">
+                    <img loading="lazy" decoding="async" src="assets/images/gallery4-min.webp" alt="gallery image" width="268" height="190">
                 </picture>
                 <!--Picture 4-->
                 <picture class="cs-picture cs-picture4">
-                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2-m.jpg">
-                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2.jpg">
-                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2.jpg" alt="gallery image" width="268" height="190">
+                    <source media="(max-width: 600px)" srcset="assets/images/gallery6-min.webp">
+                    <source media="(min-width: 601px)" srcset="assets/images/gallery6-min.webp">
+                    <img loading="lazy" decoding="async" src="assets/images/gallery6-min.webp" alt="gallery image" width="268" height="190">
                 </picture>
                 <!--Picture 5-->
                 <picture class="cs-picture cs-picture5">
-                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2-m.jpg">
-                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2.jpg">
-                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2.jpg" alt="gallery image" width="268" height="390">
+                    <source media="(max-width: 600px)" srcset="assets/images/gallery7-min.webp">
+                    <source media="(min-width: 601px)" srcset="assets/images/gallery7-min.webp">
+                    <img loading="lazy" decoding="async" src="assets/images/gallery7-min.webp" alt="gallery image" width="268" height="390">
                 </picture>
                 <!--Picture 6-->
                 <picture class="cs-picture cs-picture6">
-                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2-m.jpg">
-                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2.jpg">
-                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2.jpg" alt="gallery image" width="425" height="390">
+                    <source media="(max-width: 600px)" srcset="assets/images/gallery8-min.webp">
+                    <source media="(min-width: 601px)" srcset="assets/images/gallery8-min.webp">
+                    <img loading="lazy" decoding="async" src="assets/images/gallery8-min.webp" alt="gallery image" width="425" height="390">
                 </picture>
                 <!--Picture 7-->
                 <picture class="cs-picture cs-picture7">
-                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2-m.jpg">
-                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2.jpg">
-                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2.jpg" alt="gallery image" width="273" height="190">
+                    <source media="(max-width: 600px)" srcset="assets/images/gallery9-min.webp">
+                    <source media="(min-width: 601px)" srcset="assets/images/gallery9-min.webp">
+                    <img loading="lazy" decoding="async" src="assets/images/gallery9-min.webp" alt="gallery image" width="273" height="190">
                 </picture>
                 <!--Picture 8-->
                 <picture class="cs-picture cs-picture8">
-                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2-m.jpg">
-                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2.jpg">
-                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2.jpg" alt="gallery image" width="273" height="190">
+                    <source media="(max-width: 600px)" srcset="assets/images/gallery10-min.webp">
+                    <source media="(min-width: 601px)" srcset="assets/images/gallery10-min.webp">
+                    <img loading="lazy" decoding="async" src="assets/images/gallery10-min.webp" alt="gallery image" width="273" height="190">
                 </picture>
                 <!--Picture 9-->
                 <picture class="cs-picture cs-picture9">
-                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2-m.jpg">
-                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2.jpg">
-                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2.jpg" alt="gallery image" width="268" height="390">
+                    <source media="(max-width: 600px)" srcset="assets/images/gallery11-min.webp">
+                    <source media="(min-width: 601px)" srcset="assets/images/gallery11-min.webp">
+                    <img loading="lazy" decoding="async" src="assets/images/gallery11-min.webp" alt="gallery image" width="268" height="390">
                 </picture>
                 <!--Picture 10-->
                 <picture class="cs-picture cs-picture10">
-                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2-m.jpg">
-                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2.jpg">
-                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2.jpg" alt="gallery image" width="268" height="390">
+                    <source media="(max-width: 600px)" srcset="assets/images/gallery14-min.webp">
+                    <source media="(min-width: 601px)" srcset="assets/images/gallery14-min.webp">
+                    <img loading="lazy" decoding="async" src="assets/images/gallery14-min.webp" alt="gallery image" width="268" height="390">
                 </picture>
                 <!--Picture 11-->
                 <picture class="cs-picture cs-picture11">
-                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2-m.jpg">
-                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2.jpg">
-                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/leaves2.jpg" alt="gallery image" width="268" height="190">
+                    <source media="(max-width: 600px)" srcset="assets/images/gallery13-min.webp">
+                    <source media="(min-width: 601px)" srcset="assets/images/gallery13-min.webp">
+                    <img loading="lazy" decoding="async" src="assets/images/gallery13-min.webp" alt="gallery image" width="268" height="190">
                 </picture>
             </div>
         </div>
     </section>
 
 
-    <!-- ============================================ -->
-    <!--                   Contact                    -->
-    <!-- ============================================ -->
+<!-- ============================================ -->
+<!--                   Contact                    -->
+<!-- ============================================ -->
 
-    <section id="contact-569">
-        <div class="cs-container">
+<section id="contact-569">
+    <div class="cs-container">
+        <div class="cs-left">
             <div class="cs-content">
                 <span class="cs-topper">Contact</span>
                 <h2 class="cs-title">Request A Quote</h2>
             </div>
-            <div class="cs-left-container">
-                <div class="cs-left">
-                    <!--Form-->
-                    <form class="cs-form" id="cs-form-569" name="Contact Form" method="post">
-                        <label class="cs-label">
-                            Name
-                            <input class="cs-input" required type="text" id="name-569" name="name" placeholder="Name">
-                        </label>
-                        <label class="cs-label">
-                            Phone
-                            <input class="cs-input" required type="text" id="phone-569" name="phone" placeholder="Phone">
-                        </label>
-                        <label class="cs-label">
-                            Email
-                            <input class="cs-input" required type="text" id="email-569" name="email" placeholder="Email">
-                        </label>
-                        <label class="cs-label">
-                            How did you hear about us?
-                            <input class="cs-input" required type="text" id="hear-569" name="heat" placeholder="How did you hear about us?">
-                        </label>
-                        <label class="cs-label cs-message">
-                            Message
-                            <textarea class="cs-input cs-textarea" required name="Message" id="message-569" placeholder="Write message..."></textarea>
-                        </label>
-                        <button class="cs-submit" type="submit">Send Now</button>
-                    </form>
-                </div>
-                <div class="cs-right">
-                    <!--Contacts-->
-                    <div class="cs-flex">
-                        <span class="cs-header">Quick Contacts</span>
-                        <a href="" class="cs-link">info@email.com</a>
-                        <a href="tel:555-689-9566" class="cs-link cs-phone">+1 (555) 686-9566</a>
-                    </div>
-                </div>
+            <!--Form-->
+            <form class="cs-form" id="cs-form-569" name="Contact Form" method="post">
+                <label class="cs-label">
+                    Name
+                    <input class="cs-input" required type="text" id="name-569" name="name" placeholder="Name">
+                </label>
+                <label class="cs-label">
+                    Phone
+                    <input class="cs-input" required type="text" id="phone-569" name="phone" placeholder="Phone">
+                </label>
+                <label class="cs-label">
+                    Email
+                    <input class="cs-input" required type="text" id="email-569" name="email" placeholder="Email">
+                </label>
+                <label class="cs-label">
+                    How did you hear about us?
+                    <input class="cs-input" required type="text" id="hear-569" name="heat" placeholder="How did you hear about us?">
+                </label>
+                <label class="cs-label cs-message">
+                    Message
+                    <textarea class="cs-input cs-textarea" required name="Message" id="message-569" placeholder="Write message..."></textarea>
+                </label>
+                <button class="cs-submit" type="submit">Send Now</button>
+            </form>
+        </div>
+        <div class="cs-right">
+            <!--Contacts-->
+            <div class="cs-flex">
+                <span class="cs-header">Quick Contacts</span>
+                <a href="" class="cs-link">info@email.com</a>
+                <a href="tel:555-689-9566" class="cs-link cs-phone">+1 (555) 686-9566</a>
             </div>
         </div>
-    </section>
+    </div>
+</section>
+                                
 
 
 
