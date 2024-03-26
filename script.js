@@ -76,5 +76,3 @@ const dropDowns = Array.from(document.querySelectorAll('#cs-navigation .cs-dropd
 	
 		window.addEventListener('scroll', onScroll);
 	});
-	
-	
