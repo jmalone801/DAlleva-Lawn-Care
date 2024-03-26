@@ -373,7 +373,24 @@ html {
     }
 
     #cs-navigation .cs-button-solid {
-        display: none;
+        font-size: 1rem;
+        font-weight: 700;
+        /* 46px - 56px */
+        line-height: clamp(2.875em, 5.5vw, 3.5em);
+        text-align: center;
+        text-decoration: none;
+        min-width: 9.375rem;
+        margin: 0;
+        /* prevents padding from adding to the width */
+        box-sizing: border-box;
+        padding: 0 2rem;
+        color: #fff;
+        background-color: var(--primary);
+        display: inline-block;
+        position: relative;
+        z-index: 1;
+        transition: color 0.3s;
+        border-radius: 0.25rem;
     }
 }
 
@@ -503,24 +520,7 @@ html {
     }
 
     #cs-navigation .cs-button-solid {
-        font-size: 1rem;
-        font-weight: 700;
-        /* 46px - 56px */
-        line-height: clamp(2.875em, 5.5vw, 3.5em);
-        text-align: center;
-        text-decoration: none;
-        min-width: 9.375rem;
-        margin: 0;
-        border-radius: 0.25rem;
-        /* prevents padding from adding to the width */
-        box-sizing: border-box;
-        padding: 0 2rem;
-        color: #fff;
-        background-color: var(--primary);
-        display: inline-block;
-        position: relative;
-        z-index: 1;
-        transition: color 0.3s;
+        display: none;
     }
 
 }
@@ -529,6 +529,10 @@ html {
 @media only screen and (min-width: 81.25rem) {
     #cs-navigation .cs-social {
         display: flex;
+    }
+
+    #cs-navigation .cs-button-solid {
+        display: none;
     }
 }
 
@@ -1131,26 +1135,7 @@ html {
         display: block;
     }
 
-    #cs-navigation .cs-button-solid {
-        font-size: 1rem;
-        font-weight: 700;
-        /* 46px - 56px */
-        line-height: clamp(2.875em, 5.5vw, 3.5em);
-        text-align: center;
-        text-decoration: none;
-        min-width: 9.375rem;
-        margin: 0;
-        /* prevents padding from adding to the width */
-        box-sizing: border-box;
-        padding: 0 2rem;
-        color: #fff;
-        background-color: var(--primary);
-        display: inline-block;
-        position: relative;
-        z-index: 1;
-        transition: color 0.3s;
-        border-radius: 0.25rem;
-    }
+    
 
 }
 
