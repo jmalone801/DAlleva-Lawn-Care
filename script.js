@@ -23,10 +23,9 @@ function ariaExpanded() {
 	}
 }
 
-	// This script adds a class to the body after scrolling 100px
+// This script adds a class to the body after scrolling 100px
 // and we used these body.scroll styles to create some on scroll 
 // animations with the navbar
-
 document.addEventListener('scroll', (e) => { 
 	const scroll = document.documentElement.scrollTop;
 	if(scroll >= 100){
@@ -50,29 +49,29 @@ const dropDowns = Array.from(document.querySelectorAll('#cs-navigation .cs-dropd
 
 
 
-	// Highlights the tabs in nav depending on the section in view
-	document.addEventListener('DOMContentLoaded', function () {
-		const sections = document.querySelectorAll('section');
-		const navLinks = document.querySelectorAll('#cs-navigation .cs-li-link');
-	
-		function onScroll() {
-			let currentSection = "";
-	
-			sections.forEach(section => {
-				const sectionTop = section.offsetTop;
-				const sectionHeight = section.clientHeight;
-				if (pageYOffset >= (sectionTop - sectionHeight / 3)) {
-					currentSection = section.getAttribute('id');
-				}
-			});
-	
-			navLinks.forEach(link => {
-				link.classList.remove('cs-active');
-				if (link.getAttribute('href').includes(currentSection)) {
-					link.classList.add('cs-active');
-				}
-			});
-		}
-	
-		window.addEventListener('scroll', onScroll);
-	});
+// Highlights the tabs in nav depending on the section in view
+document.addEventListener('DOMContentLoaded', function () {
+	const sections = document.querySelectorAll('section');
+	const navLinks = document.querySelectorAll('#cs-navigation .cs-li-link');
+
+	function onScroll() {
+		let currentSection = "";
+
+		sections.forEach(section => {
+			const sectionTop = section.offsetTop;
+			const sectionHeight = section.clientHeight;
+			if (pageYOffset >= (sectionTop - sectionHeight / 3)) {
+				currentSection = section.getAttribute('id');
+			}
+		});
+
+		navLinks.forEach(link => {
+			link.classList.remove('cs-active');
+			if (link.getAttribute('href').includes(currentSection)) {
+				link.classList.add('cs-active');
+			}
+		});
+	}
+
+	window.addEventListener('scroll', onScroll);
+});
