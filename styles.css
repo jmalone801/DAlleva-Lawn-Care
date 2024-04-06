@@ -766,10 +766,6 @@ html {
 /* Tablet - 768px */
 @media only screen and (min-width: 64rem) {
 
-    section {
-        scroll-margin-top: 38px;
-    }
-
     #services .cs-container {
         max-width: 80rem;
         flex-direction: row;
