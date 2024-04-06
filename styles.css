@@ -405,6 +405,12 @@ html {
 <--- -------------------------- -*/
 /* Small Desktop - 1024px */
 @media only screen and (min-width: 64rem) {
+
+    section {
+        scroll-margin-top: 0px;
+    }
+
+
     body.scroll #cs-navigation {
         width: 100%;
         max-width: 100%;
@@ -533,6 +539,11 @@ html {
 
 /* Large Desktop - 1300px */
 @media only screen and (min-width: 81.25rem) {
+    section {
+        scroll-margin-top: 0px;
+    }
+
+
     #cs-navigation .cs-social {
         display: flex;
     }
