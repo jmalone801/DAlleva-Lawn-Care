@@ -32,8 +32,6 @@ html {
 }
 
 
-
-
 .bold-text {
     font-weight: 700;
 }
@@ -106,6 +104,11 @@ html {
 <--- -------------------------- -*/
 /* Mobile - 1023px */
 @media only screen and (max-width: 63.9375rem) {
+
+    section {
+        scroll-margin-top: 38px;
+    }
+
     body.cs-open {
         overflow: hidden;
     }
@@ -762,6 +765,11 @@ html {
 
 /* Tablet - 768px */
 @media only screen and (min-width: 64rem) {
+
+    section {
+        scroll-margin-top: 38px;
+    }
+
     #services .cs-container {
         max-width: 80rem;
         flex-direction: row;
